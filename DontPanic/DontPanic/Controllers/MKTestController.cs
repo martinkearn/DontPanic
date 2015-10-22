@@ -16,7 +16,7 @@ namespace DontPanic.Controllers
         // GET: MKTest
         public ActionResult Index()
         {
-            string viewModel = string.Empty;
+            List<Event> events = new List<Event>();
             using (StreamReader sr = new StreamReader(Server.MapPath("~/mockEventsResponse.json")))
             {
                 //get json
@@ -29,13 +29,18 @@ namespace DontPanic.Controllers
                 dynamic values = jsonResponse.value;
                 foreach (dynamic value in values)
                 {
-                    viewModel += value.Subject;
+                    Event e = new Event();
+                    e.Subject = value.Subject;
+                    e.Start = value.Start;
+                    e.End = value.End;
+                    e.ShowAs = value.ShowAs;
+                    events.Add(e);
                 }
                
 
             }
 
-            var vm = new EventsViewModel() { value = viewModel };
+            var vm = new EventsViewModel() { Events = events };
 
             return View(vm);
         }
