@@ -1,0 +1,275 @@
+﻿{
+  "@odata.context": "https://graph.microsoft.com/beta/MicrosoftLtd688.onmicrosoft.com/$metadata#users('martinkearn%40MicrosoftLtd688.onmicrosoft.com')/Events",
+  "value": [
+    {
+      "@odata.type": "#Microsoft.Graph.Event",
+      "@odata.id": "users/martinkearn%40MicrosoftLtd688.onmicrosoft.com/Events/AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7-ziQHYR_EQBwAYNOpg_rgrTLlYTPBXofRsAAAAAAENAAAYNOpg_rgrTLlYTPBXofRsAAD9-xqTAAA%3D",
+      "@odata.etag": "W/\"GDTqYPq4K0y5WEzwV6H0bAAA/f9MnA==\"",
+      "Id": "AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7-ziQHYR_EQBwAYNOpg_rgrTLlYTPBXofRsAAAAAAENAAAYNOpg_rgrTLlYTPBXofRsAAD9-xqTAAA=",
+      "ChangeKey": "GDTqYPq4K0y5WEzwV6H0bAAA/f9MnA==",
+      "Categories": [
+        "Red category"
+      ],
+      "DateTimeCreated": "2015-10-22T16:06:09.3609729Z",
+      "DateTimeLastModified": "2015-10-22T16:06:09.3922239Z",
+      "ResponseStatus": {
+        "Response": "Organizer",
+        "Time": "0001-01-01T00:00:00Z"
+      },
+      "iCalUId": "040000008200E00074C5B7101A82E0080000000001839A90E30CD101000000000000000010000000AF77A0A2B5FE2C4892A103F17BF7676E",
+      "Reminder": 15,
+      "HasAttachments": false,
+      "Subject": "Thinking ahead",
+      "Body": {
+        "ContentType": "HTML",
+        "Content": "\r\n\r\n\r\n\r\n\r\n\r\n
+\r\n
+
+\r\n
+
+\r\n
+\r\n\r\n\r\n"
+      },
+      "BodyPreview": "",
+      "Importance": "Normal",
+      "Start": "2016-02-10T08:00:00Z",
+      "StartTimeZone": "Greenwich Standard Time",
+      "End": "2016-02-10T08:30:00Z",
+      "EndTimeZone": "Greenwich Standard Time",
+      "Location": {
+        "DisplayName": "Birmingham",
+        "Address": {
+          "Street": "",
+          "City": "",
+          "State": "",
+          "CountryOrRegion": "",
+          "PostalCode": ""
+        },
+        "Coordinates": {
+          "Accuracy": "NaN",
+          "Altitude": "NaN",
+          "AltitudeAccuracy": "NaN",
+          "Latitude": "NaN",
+          "Longitude": "NaN"
+        }
+      },
+      "IsAllDay": false,
+      "IsCancelled": false,
+      "IsOrganizer": true,
+      "Recurrence": null,
+      "ResponseRequested": true,
+      "SeriesMasterId": null,
+      "ShowAs": "Busy",
+      "Type": "SingleInstance",
+      "Attendees": [],
+      "Organizer": {
+        "EmailAddress": {
+          "Address": "martinkearn@MicrosoftLtd688.onmicrosoft.com",
+          "Name": "Martin Kearn"
+        }
+      },
+      "WebLink": "?ItemID=AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7%2FziQHYR%2BEQBwAYNOpg%2BrgrTLlYTPBXofRsAAAAAAENAAAYNOpg%2BrgrTLlYTPBXofRsAAD9%2FxqTAAA%3D&exvsurl=1&viewmodel=ICalendarItemDetailsViewModelFactory"
+    },
+    {
+      "@odata.type": "#Microsoft.Graph.Event",
+      "@odata.id": "users/martinkearn%40MicrosoftLtd688.onmicrosoft.com/Events/AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7-ziQHYR_EQBwAYNOpg_rgrTLlYTPBXofRsAAAAAAENAAAYNOpg_rgrTLlYTPBXofRsAAD9-xqSAAA%3D",
+      "@odata.etag": "W/\"GDTqYPq4K0y5WEzwV6H0bAAA/f9Mmw==\"",
+      "Id": "AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7-ziQHYR_EQBwAYNOpg_rgrTLlYTPBXofRsAAAAAAENAAAYNOpg_rgrTLlYTPBXofRsAAD9-xqSAAA=",
+      "ChangeKey": "GDTqYPq4K0y5WEzwV6H0bAAA/f9Mmw==",
+      "Categories": [
+        "Red category"
+      ],
+      "DateTimeCreated": "2015-10-22T16:00:31.7340476Z",
+      "DateTimeLastModified": "2015-10-22T16:00:37.7028317Z",
+      "ResponseStatus": {
+        "Response": "Organizer",
+        "Time": "0001-01-01T00:00:00Z"
+      },
+      "iCalUId": "040000008200E00074C5B7101A82E008000000003CBB5CC7E20CD101000000000000000010000000EF1C5A0E5AB1E04796FB05D0A43A5E8F",
+      "Reminder": 15,
+      "HasAttachments": false,
+      "Subject": "A quick talk",
+      "Body": {
+        "ContentType": "HTML",
+        "Content": ""
+      },
+      "BodyPreview": "",
+      "Importance": "Normal",
+      "Start": "2015-10-28T08:00:00Z",
+      "StartTimeZone": "Greenwich Standard Time",
+      "End": "2015-10-28T12:00:00Z",
+      "EndTimeZone": "Greenwich Standard Time",
+      "Location": {
+        "DisplayName": "",
+        "Address": {
+          "Street": "",
+          "City": "",
+          "State": "",
+          "CountryOrRegion": "",
+          "PostalCode": ""
+        },
+        "Coordinates": {
+          "Accuracy": "NaN",
+          "Altitude": "NaN",
+          "AltitudeAccuracy": "NaN",
+          "Latitude": "NaN",
+          "Longitude": "NaN"
+        }
+      },
+      "IsAllDay": false,
+      "IsCancelled": false,
+      "IsOrganizer": true,
+      "Recurrence": null,
+      "ResponseRequested": true,
+      "SeriesMasterId": null,
+      "ShowAs": "Busy",
+      "Type": "SingleInstance",
+      "Attendees": [],
+      "Organizer": {
+        "EmailAddress": {
+          "Address": "martinkearn@MicrosoftLtd688.onmicrosoft.com",
+          "Name": "Martin Kearn"
+        }
+      },
+      "WebLink": "?ItemID=AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7%2FziQHYR%2BEQBwAYNOpg%2BrgrTLlYTPBXofRsAAAAAAENAAAYNOpg%2BrgrTLlYTPBXofRsAAD9%2FxqSAAA%3D&exvsurl=1&viewmodel=ICalendarItemDetailsViewModelFactory"
+    },
+    {
+      "@odata.type": "#Microsoft.Graph.Event",
+      "@odata.id": "users/martinkearn%40MicrosoftLtd688.onmicrosoft.com/Events/AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7-ziQHYR_EQBwAYNOpg_rgrTLlYTPBXofRsAAAAAAENAAAYNOpg_rgrTLlYTPBXofRsAAD9-xqRAAA%3D",
+      "@odata.etag": "W/\"GDTqYPq4K0y5WEzwV6H0bAAA/f9MmQ==\"",
+      "Id": "AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7-ziQHYR_EQBwAYNOpg_rgrTLlYTPBXofRsAAAAAAENAAAYNOpg_rgrTLlYTPBXofRsAAD9-xqRAAA=",
+      "ChangeKey": "GDTqYPq4K0y5WEzwV6H0bAAA/f9MmQ==",
+      "Categories": [
+        "Green category"
+      ],
+      "DateTimeCreated": "2015-10-22T15:53:26.7003733Z",
+      "DateTimeLastModified": "2015-10-22T15:53:26.7316235Z",
+      "ResponseStatus": {
+        "Response": "Organizer",
+        "Time": "0001-01-01T00:00:00Z"
+      },
+      "iCalUId": "040000008200E00074C5B7101A82E0080000000055BD05CAE10CD10100000000000000001000000023C5F3EFC9F98E4E969C1E398277F7BA",
+      "Reminder": null,
+      "HasAttachments": false,
+      "Subject": "ISV Thing",
+      "Body": {
+        "ContentType": "HTML",
+        "Content": "\r\n\r\n\r\n\r\n\r\n\r\n
+\r\n
+
+\r\n
+
+\r\n
+\r\n\r\n\r\n"
+      },
+      "BodyPreview": "",
+      "Importance": "Normal",
+      "Start": "2015-10-27T00:00:00Z",
+      "StartTimeZone": "UTC",
+      "End": "2015-10-28T00:00:00Z",
+      "EndTimeZone": "UTC",
+      "Location": {
+        "DisplayName": "",
+        "Address": {
+          "Street": "",
+          "City": "",
+          "State": "",
+          "CountryOrRegion": "",
+          "PostalCode": ""
+        },
+        "Coordinates": {
+          "Accuracy": "NaN",
+          "Altitude": "NaN",
+          "AltitudeAccuracy": "NaN",
+          "Latitude": "NaN",
+          "Longitude": "NaN"
+        }
+      },
+      "IsAllDay": true,
+      "IsCancelled": false,
+      "IsOrganizer": true,
+      "Recurrence": null,
+      "ResponseRequested": true,
+      "SeriesMasterId": null,
+      "ShowAs": "Free",
+      "Type": "SingleInstance",
+      "Attendees": [],
+      "Organizer": {
+        "EmailAddress": {
+          "Address": "martinkearn@MicrosoftLtd688.onmicrosoft.com",
+          "Name": "Martin Kearn"
+        }
+      },
+      "WebLink": "?ItemID=AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7%2FziQHYR%2BEQBwAYNOpg%2BrgrTLlYTPBXofRsAAAAAAENAAAYNOpg%2BrgrTLlYTPBXofRsAAD9%2FxqRAAA%3D&exvsurl=1&viewmodel=ICalendarItemDetailsViewModelFactory"
+    },
+    {
+      "@odata.type": "#Microsoft.Graph.Event",
+      "@odata.id": "users/martinkearn%40MicrosoftLtd688.onmicrosoft.com/Events/AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7-ziQHYR_EQBwAYNOpg_rgrTLlYTPBXofRsAAAAAAENAAAYNOpg_rgrTLlYTPBXofRsAAD9-xqQAAA%3D",
+      "@odata.etag": "W/\"GDTqYPq4K0y5WEzwV6H0bAAA/f9MmA==\"",
+      "Id": "AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7-ziQHYR_EQBwAYNOpg_rgrTLlYTPBXofRsAAAAAAENAAAYNOpg_rgrTLlYTPBXofRsAAD9-xqQAAA=",
+      "ChangeKey": "GDTqYPq4K0y5WEzwV6H0bAAA/f9MmA==",
+      "Categories": [
+        "Purple category"
+      ],
+      "DateTimeCreated": "2015-10-22T15:53:13.0752956Z",
+      "DateTimeLastModified": "2015-10-22T15:53:13.0909218Z",
+      "ResponseStatus": {
+        "Response": "Organizer",
+        "Time": "0001-01-01T00:00:00Z"
+      },
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000BCB7E6C1E10CD1010000000000000000100000002EE34021B80F254383D86064B931AD4E",
+      "Reminder": null,
+      "HasAttachments": false,
+      "Subject": "Full Frontal",
+      "Body": {
+        "ContentType": "HTML",
+        "Content": "\r\n\r\n\r\n\r\n\r\n\r\n
+\r\n
+
+\r\n
+
+\r\n
+\r\n\r\n\r\n"
+      },
+      "BodyPreview": "",
+      "Importance": "Normal",
+      "Start": "2015-10-29T00:00:00Z",
+      "StartTimeZone": "UTC",
+      "End": "2015-10-30T00:00:00Z",
+      "EndTimeZone": "UTC",
+      "Location": {
+        "DisplayName": "Brighton",
+        "Address": {
+          "Street": "",
+          "City": "",
+          "State": "",
+          "CountryOrRegion": "",
+          "PostalCode": ""
+        },
+        "Coordinates": {
+          "Accuracy": "NaN",
+          "Altitude": "NaN",
+          "AltitudeAccuracy": "NaN",
+          "Latitude": "NaN",
+          "Longitude": "NaN"
+        }
+      },
+      "IsAllDay": true,
+      "IsCancelled": false,
+      "IsOrganizer": true,
+      "Recurrence": null,
+      "ResponseRequested": true,
+      "SeriesMasterId": null,
+      "ShowAs": "Free",
+      "Type": "SingleInstance",
+      "Attendees": [],
+      "Organizer": {
+        "EmailAddress": {
+          "Address": "martinkearn@MicrosoftLtd688.onmicrosoft.com",
+          "Name": "Martin Kearn"
+        }
+      },
+      "WebLink": "?ItemID=AAMkADE2NzA4MGUyLTk4YTMtNDk5Yi04YzYyLWIyMzk1MmVjNTZjYgBGAAAAAABFXEyl8wdXS7%2FziQHYR%2BEQBwAYNOpg%2BrgrTLlYTPBXofRsAAAAAAENAAAYNOpg%2BrgrTLlYTPBXofRsAAD9%2FxqQAAA%3D&exvsurl=1&viewmodel=ICalendarItemDetailsViewModelFactory"
+    }
+  ]
+}
