@@ -24,7 +24,7 @@ namespace DontPanic
         private static string tenantId = ConfigurationManager.AppSettings["ida:TenantId"];
         private static string postLogoutRedirectUri = ConfigurationManager.AppSettings["ida:PostLogoutRedirectUri"];
 
-        public static readonly string Authority = aadInstance + tenantId;
+        public static readonly string Authority = aadInstance + "common";
 
         // This is the resource ID of the AAD Graph API.  We'll need this to request a token to call the Graph API.
         string graphResourceId = "https://graph.windows.net";
