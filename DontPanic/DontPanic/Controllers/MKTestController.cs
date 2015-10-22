@@ -7,6 +7,7 @@ using System.IO;
 using System.Web.Hosting;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using DontPanic.Models;
 
 namespace DontPanic.Controllers
 {
@@ -15,6 +16,7 @@ namespace DontPanic.Controllers
         // GET: MKTest
         public ActionResult Index()
         {
+            string viewModel = string.Empty;
             using (StreamReader sr = new StreamReader(Server.MapPath("~/mockEventsResponse.json")))
             {
                 //get json
@@ -27,12 +29,15 @@ namespace DontPanic.Controllers
                 dynamic values = jsonResponse.value;
                 foreach (dynamic value in values)
                 {
-                    var f = value.Subject;
+                    viewModel += value.Subject;
                 }
+               
 
             }
 
-            return View();
+            var vm = new EventsViewModel() { value = viewModel };
+
+            return View(vm);
         }
     }
 }

@@ -183,6 +183,7 @@
     </Compile>
     <Compile Include="Models\AdalTokenCache.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\EventsViewModel.cs" />
     <Compile Include="Models\FileModel.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\UserModelDetail.cs" />
