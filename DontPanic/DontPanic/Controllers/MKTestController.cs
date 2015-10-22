@@ -34,6 +34,7 @@ namespace DontPanic.Controllers
                     e.Start = value.Start;
                     e.End = value.End;
                     e.ShowAs = value.ShowAs;
+                    //e.Categories = value.Categories;
                     events.Add(e);
                 }
                
