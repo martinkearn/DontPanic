@@ -12,6 +12,7 @@ using Microsoft.Owin.Security.OpenIdConnect;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Owin;
 using DontPanic.Models;
+using DontPanic.Utils;
 
 namespace DontPanic
 {
@@ -54,6 +55,9 @@ namespace DontPanic
                            AuthenticationContext authContext = new AuthenticationContext(Authority, new ADALTokenCache(signedInUserID));
                            AuthenticationResult result = authContext.AcquireTokenByAuthorizationCode(
                            code, new Uri(HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Path)), credential, graphResourceId);
+
+                           //cache the token in session state
+                           HttpContext.Current.Session[SettingsHelper.UserTokenCacheKey] = result;
 
                            return Task.FromResult(0);
                        }
